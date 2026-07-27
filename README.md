@@ -1,20 +1,23 @@
-# frontend-projects
-A collection of front-end projects built while learning HTML, CSS, JavaScript and more.
+# Frontend Projects
 
+A collection of front-end projects built while learning HTML, CSS, JavaScript and more — including exercises from Angela Yu's Udemy web development bootcamp and independent practice projects.
 
-## Account Number Image Generator
+## Projects
 
-A small vanilla JS project that overlays a generated account number onto an image using HTML5 Canvas, then lets you download the result as a PNG or copy its base64-encoded string.
+### [account-number-image-generator](./account-number-image-generator)
+Overlays a generated account number onto an image using HTML5 Canvas, with download and base64-copy functionality.
 
-### Features
-- Generate a random account number with one click
-- Burn the account number directly onto the displayed image (via Canvas)
-- Download the final image as a PNG file
-- View and copy the image's base64-encoded string
+### [css-flag](./css-flag)
+A flag built entirely with CSS, practicing layout, positioning, and styling fundamentals.
 
-### Tech Stack
-- HTML, CSS, JavaScript (no frameworks/libraries)
-- HTML5 Canvas API for image manipulation
+### [motivation-poster](./motivation-poster)
+A styled motivational poster page, practicing CSS layout and typography.
 
-### How to Run
-Open `index.html` in a browser via a local server (e.g., VS Code's Live Server extension). Opening it directly via `file://` will cause a CORS/tainted-canvas error when generating the base64 string or downloading the image.
+### [web-design-agency-project](./web-design-agency-project)
+A multi-section web design agency landing page, practicing responsive layout and design fundamentals.
+
+## Tech Stack
+Vanilla HTML, CSS, and JavaScript across all projects (no frameworks).
+
+## How to Run
+Each project lives in its own folder. For static HTML/CSS projects, simply open the folder's `index.html` directly in a browser. For `account-number-image-generator`, use a local server (e.g., VS Code's Live Server extension) rather than opening via `file://`, to avoid CORS-related issues when generating the base64 string or downloading the image.
