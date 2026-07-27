@@ -1,0 +1,64 @@
+
+h1 {
+    color: black;
+}
+p {
+    color: black;
+}
+
+.img-container {
+    /*position: relative;
+    display: inline-block;
+    */
+    margin-bottom: 20px;
+
+}
+.controls {
+    margin-bottom: 20px;
+}
+.controls button {
+    margin-right: 10px;
+}
+.output textarea {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    
+}
+/*.number {
+    color: yellow;
+    position: absolute;
+    display: none;
+left:20px;
+top: 20px;
+}*/
+
+/*#btn {
+    position: absolute;
+    left:10px;
+    top:5px;
+    
+}
+#myCanvas {
+border: 2px solid black;
+width:500px;
+height:300px;
+display: none;
+}
+
+#downloadbtn {
+    position: absolute;
+    top: 5px;
+right:10px;
+}
+#scenery {
+    width: 500px;
+  height: 300px;
+  image-rendering: pixelated;
+}
+  */
